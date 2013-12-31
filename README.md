@@ -9,14 +9,13 @@ It's my configuration for my server Starbound
 
   clone project in root installation 
   
-  example : "/home/starbound"
+  example : ```/home/starbound ```
   
   git clone https://github.com/flug/dotstarbound .dotstarbound
   
   And after cloning create symlink of folders and files 
   
   example : 
-    
-    
-    - ``` ln -s .dotstarbound/mods ./ ```
-    - ``` ln -s .dotstarbound/starbound.config ./linux64/ ```
+	
+	``` ln -s .dotstarbound/mods ./ ```
+    	``` ln -s .dotstarbound/starbound.config ./linux64/ ```
