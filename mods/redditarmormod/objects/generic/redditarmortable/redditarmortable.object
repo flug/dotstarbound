@@ -1,0 +1,39 @@
+{
+  "objectName" : "redditarmortable",
+  "rarity" : "Rare",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "redditarmortable" ]
+  },
+  "printable" : false,
+  "description" : "They came out of the trees, man... they just came out of the trees...",
+  "shortdescription" : "Remains of the Reddit Alien.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : "200",
+
+  "apexDescription" : "A table with a bunch of tools for a craftsman.",
+  "avianDescription" : "A chance to display one's ability to create.",
+  "floranDescription" : "Floran ussse table. Make nice thingss.",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "I can use materials I've found here to create new things.",
+  "hylotlDescription" : "A chance to create.",
+
+  "inventoryIcon" : "redditarmortableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "redditarmortable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

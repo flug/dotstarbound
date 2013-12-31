@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "redditarmortable",
+    "count" : 1
+  },
+  "groups" : [ "mod", "anvil", "objects", "all", "tools" ]
+}
