@@ -3,13 +3,14 @@
 This mod will upgrade you mech instant.No need to craft/build.
 
 Installation:
-1.Just place the mods to your mods files (*Steam Location*/SteamApps/common/Starbound/mods)
+1.Just place the mods to your mods files (``` Steam Location/SteamApps/common/Starbound/mods```)
 
 If this doesnt work try this:
-1.Go to your mech file in the Starbound folder (Starbound/assets/tech/mech/humanmech)
-2.Open the humanmech.tech with Notepad or Notepad++
-3.There should have:
 
+>    1.Go to your mech file in the Starbound folder (Starbound/assets/tech/mech/humanmech)
+    2.Open the humanmech.tech with Notepad or Notepad++
+    3.There should have:
+```json
 {
   "script" : "/tech/mech/mech.lua",
   "actions" : [ "mechActivate", "mechDeactivate" ],
@@ -61,7 +62,7 @@ If this doesnt work try this:
   "mechProjectileConfig" : {
     "power" : 70  }
 }
-
+```
 
 Copy and replace this to your humanmech.tech (WARNING:HAVE A BACKUP FIRST!!(incase your game crash)
 
@@ -70,17 +71,17 @@ Copy and replace this to your humanmech.tech (WARNING:HAVE A BACKUP FIRST!!(inca
 That's all....
 
 In this mod:
-1.It will upgrade your mech speed (walk,run)
-2.It will upgrade your mech firerate
-3.It will upgrade your mech jump
-4.It will upgrade your mech damage
-5.It will allow you to aim up and down without limit
-6.It will change the look of your mech
+>    1.It will upgrade your mech speed (walk,run)
+    2.It will upgrade your mech firerate
+    3.It will upgrade your mech jump
+    4.It will upgrade your mech damage  
+    5.It will allow you to aim up and down without limit
+    6.It will change the look of your mech
 
 Future:
-1.Increase damage (DONE)
-2.Increase aim limit (DONE)
-3.Increase speed
+>    1.Increase damage (DONE)
+    2.Increase aim limit (DONE)
+    3.Increase speed
 
 Version History:V.1=Initial Release,V.2=Slightly Increase damage and speed,V.3=Lower firerate but increase more damage,speed,legs cycle and aim limit,V.3a=Added new look of the mech
 
