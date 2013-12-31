@@ -1,0 +1,9 @@
+{
+  "codexId" : "elfnotes",
+  "title" : "An Elf's Ambition",
+  "codexkind" : "codex",
+  "itemName" : "elfnotesCodex",
+  "rarity" : "common",
+  "description" : "An Elf begins the sacredjourney.",
+  "shortdescription" : "Elf's Ambition"
+}

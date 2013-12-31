@@ -1,0 +1,11 @@
+{
+  "name" : "elf",
+  "version" : "Beta v. Angry Koala",
+  "path" : ".",
+  "dependencies" : [ "charactercreationmod"],
+  "metadata": {
+    "author" : "AhmiDarrow",
+    "description" : "Adds the new race of elves to the game, requires the custom race extension mod by Xankek for streamlined look (included).",
+    "support_url" : "http://community.playstarbound.com/index.php?resources/elven-race-mod.241/"
+        }
+}

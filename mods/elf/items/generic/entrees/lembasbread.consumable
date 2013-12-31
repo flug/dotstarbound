@@ -1,0 +1,19 @@
+{
+  "itemName" : "lembasbread",
+  "rarity" : "Common",
+  "inventoryIcon" : "lembas.png",
+  "description" : "A nourishing and restorative bread.",
+  "shortdescription" : "Lembas Bread",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "mollyhealing3" },
+      {
+        "kind" : "energy",
+        "amount" : 50
+      }
+    ] ]
+}

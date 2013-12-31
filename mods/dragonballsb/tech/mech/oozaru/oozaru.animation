@@ -1,0 +1,360 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : { },
+
+          "jump" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "end",
+            "properties" : {
+              "immediateSound" : "/sfx/tech/mech_jump3.wav"
+            },
+            "frameProperties" : {
+              "stateNudge" : [ [0, 0.5], [0, 0.5], [0, 0.375], [0, 0.375] ]
+            }
+          },
+
+          "fall" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "end",
+            "frameProperties" : {
+              "stateNudge" : [ [0, 0.25], [0, 0.25], [0, 0.125], [0, 0] ]
+            }
+          },
+
+          "walk" : {
+            "frames" : 10,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/tech/mech_step.wav", "", "", "", "", "/sfx/tech/mech_step2.wav", "", "", "", "" ],
+              "stateNudge" : [ [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25], [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25] ]
+            }
+          },
+
+          "backWalk" : {
+            "frames" : 10,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/tech/mech_step.wav", "", "", "", "", "/sfx/tech/mech_step2.wav", "", "", "", "" ],
+              "stateNudge" : [ [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25], [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25] ]
+            }
+          }
+        }
+      },
+
+      "frontFiring" : {
+        "states" : {
+          "fire" : {
+            "frames" : 3,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+
+          "off" : { }
+        }
+      }
+
+    },
+
+    "parts" : {
+      "backLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1,
+          "back" : true
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "oozarubleg.png:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "oozarubleg.png:jump.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "oozarubleg.png:fall.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.25], [0, -0.25], [0, -0.125], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "oozarubleg.png:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "oozarubleg.png:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+              }
+            }
+          }
+        }
+      },
+
+      "body" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "oozarubody.png:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "oozarubody.png:idle"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "oozarubody.png:idle"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "oozarubody.png:idle"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "oozarubody.png:idle"
+              }
+            }
+          }
+        }
+      },
+
+	  "farm" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 6
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "oozarufarm.png:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "oozarufarm.png:idle"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "oozarufarm.png:idle"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "oozarufarm.png:idle"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "oozarufarm.png:idle"
+              }
+            }
+          }
+        }
+      },
+	  
+	  "barm" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 2
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "oozarubarm.png:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "oozarubarm.png:idle"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "oozarubarm.png:idle"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "oozarubarm.png:idle"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "oozarubarm.png:idle"
+              }
+            }
+          }
+        }
+      },
+	  
+      "frontGunFire" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3.5,
+          "offset" : [4.5, 2.5],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [-0.8, 3.5]
+        },
+
+        "partStates" : {
+          "frontFiring" : {
+            "fire" : {
+              "properties" : {
+                "image" : "/animations/muzzleflash/rapidfire/rapidfireflash.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 4,
+		  "offset" : [0.8, 3.5],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [-0.8, 3.5],
+          "relativeAnchors" : {
+            "frontGunFirePoint" : [2, -1]
+          }
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "oozaruhead.png:rotation",
+                "rotationCenter" : [-0.8, 3.4]
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "oozaruhead.png:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "oozaruhead.png:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "oozaruhead.png:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "oozaruhead.png:rotation"
+              }
+            }
+          }
+        }
+      },
+
+      "frontLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 5
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "oozarufleg.png:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "oozarufleg.png:jump.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "oozarufleg.png:fall.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.25], [0, -0.25], [0, -0.125], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "oozarufleg.png:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "oozarufleg.png:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "guns" : {
+      "angularVelocity" : 10.0
+    }
+  },
+
+  "particleEmitters" : {
+    "mechActivateParticles" : {
+      "particles" : [ 
+	  ]
+    },
+    "mechDeactivateParticles" : {
+      "particles" : [ 
+	  ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name" : "charactercreationmod",
+  "version" : "Beta v. Angry Koala",
+  "path" : ".",
+  "dependencies" : [ ]
+}

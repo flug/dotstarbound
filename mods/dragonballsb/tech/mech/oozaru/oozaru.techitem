@@ -1,0 +1,10 @@
+{
+  "itemName" : "oozaru",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/oozaru.png",
+  "description" : "Oozaru Transformation",
+  "shortdescription" : "Oozaru Transformation",
+  "inspectionKind" : "tech",
+
+  "techModule" : "oozaru.tech"
+}

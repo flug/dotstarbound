@@ -1,0 +1,16 @@
+{
+  "id" : "elftutorial.gearup",
+  "title" : "^#9be3d6;A Pilgrimage Begins",
+  "text" : "You manage to escape the darkness and get off Narshe on an elite class elven transport, it has run out of fuel near an unknown planet. Before setting out in search of fuel, make sure to ^green;get your items from the ship cargo!",
+  "completionText" : "Well done! The matter manipulator allows you to manipulate almost anything in the cosmos, and the knife will let you gather food.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "elftutorial2.gearup"
+}

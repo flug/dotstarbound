@@ -1,0 +1,14 @@
+{
+  "itemName" : "elfbandage",
+  "rarity" : "rare",
+  "inventoryIcon" : "elfbandage.png",
+  "description" : "A elven bandage blessed by Alexandria & made from plants sprinkled with moon dust.",
+  "shortdescription" : "Elven Bandage",
+  "effects" : [ [
+      {
+        "kind" : "bandage",
+        "amount" : 1.5
+      }
+    ] ],
+  "emote" : "angry"
+}

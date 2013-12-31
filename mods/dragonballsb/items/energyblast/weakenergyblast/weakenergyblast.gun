@@ -1,0 +1,33 @@
+{
+  "itemName" : "weakenergyblast",
+  "inventoryIcon" : "weakenergyblasticon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "inspectionKind" : "gun",
+  "rarity" : "Common",
+  "level" : 1,
+  "description" : "Weakest form of the Energy Blast",
+  "shortdescription" : "weak Energy Blast",
+  "image" : "invisible.png",
+  "handPosition" : [0, 0],
+  "firePosition" : [0, 0],
+  "fireTime" : 0.8,
+  "recoilTime" : 0.1,
+  "twoHanded" : false,
+  "classMultiplier" : 0.3,
+
+  "fireOnRelease" : false,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "weakenergyblastp",
+  "projectile" : {
+		"power" : 12,
+		"speed" : 50
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/energyblast/weakenergyblast/weakenergyblastf.animation",
+    "fireSound" : [ { "file" : "/sfx/kiblast.ogg" } ],
+	"emitters" : [ "bluespecs" ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+     { "item" : "plantfibre", "count" : 10 },
+	 { "item" : "moondust", "count" : 5 }
+ ],
+  "output" : {
+    "item" : "moonlilyseed",
+    "count" : 2
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

@@ -1,0 +1,16 @@
+{
+  "projectileName" : "weakenergyblastp",
+  "timeToLive" : 0.3,
+  "frames" : "weakenergyblastp.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/energyblast/weakenergyblast/weakenergyblaste/weakenergyblaste.config"
+    }
+  ],
+  "lightColor" : [32, 57, 85],
+  "damageKind" : "default",
+  "emitters" : [ "bluespecs" ]
+}

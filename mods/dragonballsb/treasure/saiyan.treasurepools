@@ -1,0 +1,17 @@
+{
+  "saiyanStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+		  [ "senzubean", 3 ],
+          [ "torch", 10 ],
+		  "basicscouter",
+		  "weakpunch",
+		  "weakpunch"
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

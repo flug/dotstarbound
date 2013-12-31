@@ -1,0 +1,9 @@
+{
+  "codexId" : "elfcraftinfo",
+  "title" : "Elven - Crafting",
+  "codexkind" : "codex",
+  "itemName" : "elfcraftinfoCodex",
+  "rarity" : "common",
+  "description" : "Listing of Elven Crafting",
+  "shortdescription" : "Elven - Crafting"
+}

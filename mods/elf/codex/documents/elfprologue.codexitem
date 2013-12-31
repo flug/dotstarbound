@@ -1,0 +1,9 @@
+{
+  "codexId" : "elfprologue",
+  "title" : "Elven Journey",
+  "codexkind" : "codex",
+  "itemName" : "elfprologueCodex",
+  "rarity" : "common",
+  "description" : "Darkness follows the light.",
+  "shortdescription" : "Elven Prologue"
+}

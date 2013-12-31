@@ -1,0 +1,26 @@
+{
+  "id" : "elfcraftinfo",
+  "title" : "Elven - Crafting",
+  "contentPages" : [
+
+    "So to help preserve some of what we have lost to time and to darkness, a compendium of cultural goods, a listing of elven recipes. The knowledge of our people is contained within these pages, with it you can make the greatest works of our people!",
+
+    "Elven Wheat Seeds - Tier 1 - Plain - 10 moondust + 1 wheat seed = Elven Wheat Seed",
+	
+	"Moon Lily Seeds - Tier 1 - Plain - 5 plant fibre + 2 moondust = Moon Lily Seeds x2",
+	
+	"Lembas Bread - Tier 1 - Kitchen Table - 10 wheat + 10 moondust = Lembas Bread x5",
+	
+	"Elven Bandage - Tier 2 - Plain - 1 bandage + 2 moondust = Elven Bandage",
+	
+	"Greater Elven Bandage - Tier 3 - Plain - 1 elven bandage + 2 moondust + 1 gold ore = Greater Elven Bandage",
+	
+	"Moon Essence - Tier 3 - Crafting Table - 100 moondust = Moon Essence",
+	
+	"Mithril Bar - Tier 4 - Metal Workstation - 10 moon essence + 2 silver bars = Mithril Bar",
+	
+	"Slywyn's Mithril Bow - Tier 4 - Metal Workstation - 5 mithril bars + 5 durasteel = Slywyn's Mithril Bow"
+
+
+  ]
+}

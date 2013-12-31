@@ -1,0 +1,10 @@
+{
+  "itemName" : "mount",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/mount.png",
+  "description" : "Press F to mount or dismount your beetle!! It can also jump!",
+  "shortdescription" : "Elven Beetle Cart",
+  "inspectionKind" : "tech",
+
+  "techModule" : "mount.tech"
+}

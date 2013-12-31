@@ -1,0 +1,11 @@
+{
+  "itemName" : "weakspiritenergy",
+  "rarity" : "Common",
+  "inventoryIcon" : "weakspiritenergy.png",
+  "description" : "Spirit Energy of a weak being",
+  "shortdescription" : "Weak Spirit Energy",
+  "learnBlueprintsOnPickup" : [
+    "weakenergyblast",
+	"senzubean"
+  ]
+}

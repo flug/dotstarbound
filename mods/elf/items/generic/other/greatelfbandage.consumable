@@ -1,0 +1,14 @@
+{
+  "itemName" : "greatelfbandage",
+  "rarity" : "legendary",
+  "inventoryIcon" : "elfbandage.png",
+  "description" : "A  greater elven bandage blessed by Alexandria & made from plants sprinkled with moon dust mixed with gold flakes.",
+  "shortdescription" : "Greater Elven Bandage",
+  "effects" : [ [
+      {
+        "kind" : "bandage",
+        "amount" : 2.5
+      }
+    ] ],
+  "emote" : "angry"
+}

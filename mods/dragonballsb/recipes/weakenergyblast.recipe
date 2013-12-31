@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "weakspiritenergy", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "weakenergyblast",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

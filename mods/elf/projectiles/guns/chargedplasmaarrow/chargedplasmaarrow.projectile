@@ -1,0 +1,29 @@
+{
+  "projectileName" : "chargedplasmaarrow",
+  "frames" : "chargedplasmaarrow.png",
+  "animationCycle" : 0.3,
+  "level" : 18,
+  "physics" : "laser",
+  "frameNumber" : 4,
+  "pointLight" : true,
+  "lightColor" : [255, 113, 0],
+  "speed" : 25,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "stickyplasma",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 100,
+      "angleAdjust" : 35
+    }
+  ],
+  "power" : 450.0,
+  "damageKind" : "plasma"
+
+}
+
+

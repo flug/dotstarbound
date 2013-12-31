@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "moonessence", "count" : 2 },
+	{ "item" : "silverbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "mithrilbar",
+    "count" : 1
+  },
+  "groups" : [ "metalworkstation", "tools", "all" ]
+}

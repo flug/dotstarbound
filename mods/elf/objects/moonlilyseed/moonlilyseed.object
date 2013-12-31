@@ -1,0 +1,67 @@
+{
+  "objectName" : "moonlilyseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A common moon lily from Narshe.",
+  "shortdescription" : "Elven Moon Lily",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "A mystical plant indeed!",
+  "avianDescription" : "A mystical plant indeed!",
+  "floranDescription" : "A mystical plant indeed!",
+  "glitchDescription" : "A mystical plant indeed!",
+  "humanDescription" : "A mystical plant indeed!",
+  "hylotlDescription" : "A mystical plant indeed!",
+  "elfDescription" : "Nice to have a small piece of Narshe...",
+
+  "inventoryIcon" : "moonlilyseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "moonlilyseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "item" : "moondust",
+            "count" : 5
+          },
+		  {
+            "name" : "moonlilyseed",
+            "count" : 2
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 420],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 420],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

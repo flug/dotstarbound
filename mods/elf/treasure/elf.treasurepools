@@ -1,0 +1,17 @@
+{
+  "elfStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "torch", 10 ],
+          [ "elfwheatseed", 3],
+		  [ "moonlilyseed", 3],
+		  [ "lembasbread", 3],
+		  [ "elfstarter", 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

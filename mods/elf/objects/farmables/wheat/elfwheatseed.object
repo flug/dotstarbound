@@ -1,0 +1,87 @@
+{
+  "objectName" : "elfwheatseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Wheat-- a staple crop!",
+  "shortdescription" : "Elven Wheat Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Looks like normal wheat, almost.",
+  "avianDescription" : "Looks like normal wheat, almost.",
+  "floranDescription" : "Looks like normal wheat, almost.",
+  "glitchDescription" : "Looks like normal wheat, almost.",
+  "humanDescription" : "Looks like normal wheat, almost.",
+  "hylotlDescription" : "Looks like normal wheat, almost.",
+  "elfDescription" : "The base of elven culture.",
+
+  "inventoryIcon" : "elfwheatseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "elfwheatseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "wheat",
+            "count" : 4
+          },
+          {
+            "name" : "elfwheatseed",
+            "count" : 2
+          }
+        ],
+        [
+          {
+            "name" : "elfwheatseed",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          },
+		   {
+            "name" : "wheat",
+            "count" : 5
+          }
+        ],
+        [
+          {
+            "name" : "wheat",
+            "count" : 6
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [300, 420],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [300, 420],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

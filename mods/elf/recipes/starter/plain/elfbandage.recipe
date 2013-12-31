@@ -1,0 +1,11 @@
+{
+  "input" : [
+     { "item" : "bandage", "count" : 1 },
+	 { "item" : "moondust", "count" : 2 }
+ ],
+  "output" : {
+    "item" : "elfbandage",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

@@ -1,0 +1,43 @@
+{
+  "itemName" : "mithbow1",
+  "inventoryIcon" : "mithbow1icon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A rare copy of Slywyn's legendary mithril plasma bow.",
+  "shortdescription" : "Slywyn's Mithril Bow",
+  "image" : "mithbow1.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [0, -1],
+  "firePosition" : [20, 1.5],
+  "level" : 1,
+  "fireTime" : 1,
+  "twoHanded" : true,
+  
+  "statusEffects" : [
+   {
+      "kind" : "energyregenmodifier",
+      "amount" : 5
+    }
+  ],
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "plasmaarrow",
+  "powerProjectileType" : "chargedplasmaarrow",
+  "powerProjectileTime" : [0.9, 1.1],
+  "projectile" : {
+    "speed" : 60,
+    "speedCurve" : "drawTimeMultiplier",
+    "power" : 40,
+    "powerCurve" : "drawTimeMultiplier",
+    "color" : [10, 255, 10]
+  },
+  
+ 
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_mp3.wav" } ]
+  }
+}
