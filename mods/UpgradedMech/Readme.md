@@ -10,6 +10,7 @@ If this doesnt work try this:
 >    1.Go to your mech file in the Starbound folder (Starbound/assets/tech/mech/humanmech)
     2.Open the humanmech.tech with Notepad or Notepad++
     3.There should have:
+    
 ```json
 {
   "script" : "/tech/mech/mech.lua",
