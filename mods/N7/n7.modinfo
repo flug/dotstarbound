@@ -1,0 +1,11 @@
+{
+	"name" : "N7",
+    "version" : "Beta v. Angry Koala",
+    "path" : ".",
+    "dependencies" : [ "charactercreationmod"],
+    "metadata": {
+        "author" : "TohKlidan",
+        "description" : "A Mass Effect Related Mod. Featuring SSV Normandy SR1. v. 0.2",
+        "support_url" : "http://community.playstarbound.com/index.php?resources/n7.589/"
+    }
+}
