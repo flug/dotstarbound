@@ -1,0 +1,7 @@
+{
+  "frames" : "boz_wosw_blaster.png",
+  "variants" : 1,
+  "frameNumber" : 1,
+  "animationCycle" : 0.01,
+  "offset" : [-3, 0]
+}

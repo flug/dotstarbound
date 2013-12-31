@@ -1,0 +1,6 @@
+{
+  "kind" : "boz_lightsabre_glow",
+  "primitives" : [
+    { "name" : "glow" }
+  ]
+}

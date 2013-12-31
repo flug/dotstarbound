@@ -1,0 +1,30 @@
+{
+  "itemName" : "boz_wosw_blaster",
+  "inventoryIcon" : "boz_wosw_blastericon.png",
+  "shortdescription" : "Basic Imperial Blaster",
+  "description" : "Standard Issue Imperial Blaster",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "Common",
+  "inspectionKind" : "gun",
+  "image" : "boz_wosw_blaster.png",
+  "recoilTime" : 0.25,
+  "handPosition" : [0, 0],
+  "firePosition" : [0, 0],
+  
+  "fireTime" : 0.5,
+  "twoHanded" : false,
+
+  "projectileType" : "boz_wosw_blaster",
+  "projectile" : {
+	"power" : 20,
+	"speed" : 1000,
+    "color" : [255,0,0]
+  },
+
+  "muzzleEffect" :{
+    "animation" : "/animations/boz_wosw_blaster/boz_wosw_blaster.animation",
+    "fireSound" : [{"file":"/sfx/boz_wosw_blaster.wav"}]
+  }
+}

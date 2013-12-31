@@ -1,0 +1,22 @@
+{
+  "projectileName" : "boz_wosw_blaster",
+  "physics" : "laser",
+  "bounces" : 0,
+  "level" : 1,
+  "timeToLive" : 5,
+  "damageKindImage" : "icon.png",
+  "frames" : "boz_wosw_blaster.png",
+  "pointLight" : true,
+  "animationCycle" : 0.0,
+  "frameNumber" : 1,
+  "power" : 30,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [70,0,0],
+  "damageKind" : "default"
+}
