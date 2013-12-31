@@ -1,0 +1,13 @@
+{
+  "itemName" : "psifruit",
+  "rarity" : "Common",
+  "inventoryIcon" : "psifruit.png",
+  "description" : "Mmm juicy.",
+  "shortdescription" : "Psifruit",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

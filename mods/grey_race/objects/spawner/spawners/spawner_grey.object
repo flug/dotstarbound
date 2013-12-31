@@ -1,0 +1,56 @@
+{
+  "objectName" : "spawnergrey",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Spawn your very own Grey villager!",
+  "shortdescription" : "Grey Spawner",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : "300",
+
+  "apexDescription" : "This will let me summon one of my people.",
+  "avianDescription" : "An Apex dispenser. Unusual.",
+  "floranDescription" : "Magic monkeyman out of air!",
+  "glitchDescription" : "Philosophical. Do these spawned beings have souls?",
+  "humanDescription" : "Cool, a monkey machine.",
+  "hylotlDescription" : "Why would I want to spawn an Apex?",
+  "greyDescription" : "Since I can't find my way home I will bring home to me..",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_grey.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/grey.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_grey.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "grey" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "greytutorial.gearup",
+  "title" : "^#9be3d6;Stranded!",
+  "text" : "You are a citizen of Zeta Reticuli. You need to prove yourself to become a functioning member of the Expeditionary force. After travelling around visiting planets your computer malfunctions and you drift out of fuel. ^green;search your ship's storage for a ^pink;matter manipulator^white;. Press ^green;E ^white;to interact with objects.",
+  "completionText" : "Well done! The matter manipulator allows you to manipulate almost anything in the gameworld.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial2.gearup"
+}

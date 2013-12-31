@@ -1,0 +1,20 @@
+{
+  "__merge" : [],
+    "greyStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "torch", 10],
+          [ "psifruitseed", 3],
+          [ "wheatseed", 3],
+          [ "apexstarter", 1],
+		  [ "nudechest", 1],
+		  [ "nudepants", 1],
+		  [ "nudehead", 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

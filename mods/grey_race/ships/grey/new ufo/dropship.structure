@@ -1,0 +1,177 @@
+{
+  "config" : {
+    "fuelMax" : 1000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "shipship.png",
+      "position" : [0, 0]
+    }
+  ],
+
+  "blockKey" : [
+    {
+      "value" : [255, 255, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : false
+    },
+
+    {
+      "value" : [0, 0, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true
+    },
+
+    {
+      "value" : [255, 0, 0, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : true
+    },
+
+    {
+      "value" : [0, 255, 0, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "pressurizedsteel",
+      "object" : "apexshiplocker",
+      "objectParameters" : {
+        "treasurePools" : [ "greyStarterTreasure" ],
+        "level" : 1,
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [142, 255, 142, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "pressurizedsteel",
+      "object" : "techstation",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [255, 87, 81, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+	  "backgroundMat" : "pressurizedbeam",
+      "object" : "greyfuelhatch",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [255, 255, 0, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "pressurizedbeam",
+      "object" : "apexshiplight"
+    },
+
+    {
+      "value" : [255, 102, 0, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "apexshipdoor"
+    },
+
+    {
+      "value" : [174, 137, 81, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "shipengine",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [156, 0, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "pressurizedbeam",
+      "object" : "teleporter",
+      "flags" : [ "playerSpawn" ],
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [167, 167, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "boosterflame",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [168, 168, 168, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "smallboosterflame",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [0, 255, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "pressurizedbeam",
+      "object" : "captainschair",
+      "objectDirection" : "left",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [122, 122, 122, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "shiplight",
+      "objectParameters" : {
+        "unbreakable" : true
+      }
+    },
+
+    {
+      "value" : [255, 255, 144],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "pressurizedsteel"
+    },
+
+    {
+      "value" : [255, 117, 144],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "pressurizedbeam"
+    },
+	
+	{
+      "value" : [50, 50, 50, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : true,
+      "foregroundMat" : "steelplatform",
+      "backgroundMat" : "pressurizedsteel"
+    },
+	
+    {
+      "value" : [255, 117, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "pressurizedgirder"
+    }
+  ],
+
+  "blockImage" : "dropshipblocks.png"
+}
