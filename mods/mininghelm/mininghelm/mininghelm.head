@@ -1,0 +1,35 @@
+{
+  "itemName" : "mininghelmhead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "The perfect helmet for spelunking.",
+  "shortdescription" : "Mining Helmet",
+  "inspectionKind" : "armor",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "coldprotection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 2.25
+    },
+
+    {
+      "kind" : "energyincrease",
+      "amount" : 7.5
+    },
+	
+	{
+      "kind" : "glow",
+      "amount" : 0.5
+    }
+  ]
+}

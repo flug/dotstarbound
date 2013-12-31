@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 24 },
+    { "item" : "money", "count" : 250 },
+	{ "item" : "yellowflashlight", "count" : 1 },
+	{ "item" : "yellowdye", "count" : 1 }
+  ],
+  "output" : { "item" : "mininghelmhead", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}
