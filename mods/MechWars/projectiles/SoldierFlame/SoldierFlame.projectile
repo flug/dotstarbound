@@ -1,0 +1,27 @@
+{
+  "projectileName" : "SoldierFlame",
+  "frames" : "SoldierFlame.png",
+  "physics" : "flame",
+  "level" : 3,
+  "animationCycle" : 1,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 12,
+  "power" : 5,
+  "speed" : 25,
+  "timeToLive" : 1,
+  "bounces" : 4,
+  "piercing" : false,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "lightColor" : [255, 180, 0],
+  "damageKind" : "fire",
+  "damageType" : "ignoresdef",
+  "statusEffects" : [
+    {
+      "kind" : "glow",
+      "amount" : 100.0,
+      "color" : "orange",
+      "duration" : 5.0
+    },
+    { "kind" : "testburning" }
+  ]
+}

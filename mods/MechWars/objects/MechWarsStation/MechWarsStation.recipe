@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+	
+  ],
+  "output" : {
+    "item" : "MechWarsStation",
+    "count" : 1
+  },
+  "groups" : [ "plain", "mod", "all", "other" ]
+}

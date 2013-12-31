@@ -1,0 +1,10 @@
+{
+  "itemName" : "apexengineermechtech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanmech.png",
+  "description" : "This apex mech is designed to drill, repair, and build.",
+  "shortdescription" : "Apex Engineer Mech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "apexengineermech.tech"
+}

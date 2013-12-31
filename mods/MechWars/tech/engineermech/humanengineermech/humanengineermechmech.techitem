@@ -1,0 +1,10 @@
+{
+  "itemName" : "humanengineermechtech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanmech.png",
+  "description" : "This human mech is designed to drill, repair, and build.",
+  "shortdescription" : "Human Engineer Mech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "humanengineermech.tech"
+}

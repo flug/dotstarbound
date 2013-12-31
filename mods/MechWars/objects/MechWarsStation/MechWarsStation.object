@@ -1,0 +1,39 @@
+{
+  "objectName" : "MechWarsStation",
+  "rarity" : "Rare",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/objects/MechWarsStation/MechWarsStation.config",
+    "filter" : [ "MechWars" ]
+  },
+  "printable" : false,
+  "description" : "The battlefields of the future are dominated by huge robotic war machines...",
+  "shortdescription" : "Mech Wars Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : "200",
+
+  "apexDescription" : "My favorite models are REX or RAY.",
+  "avianDescription" : "I hope to join the Raven's Nest.",
+  "floranDescription" : "Does it Transform?",
+  "glitchDescription" : "Combat is an Endless Waltz.",
+  "humanDescription" : "I'm calling mine Jehuty.",
+  "hylotlDescription" : "Hylotl mechs look like Metal Slugs.",
+
+  "inventoryIcon" : "MechWarsStationIcon.png",
+
+  "orientations" : [
+    {
+      "dualImage" : "MechWarsStation.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 22,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

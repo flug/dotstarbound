@@ -1,0 +1,10 @@
+{
+  "itemName" : "humansoldiermechtech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanmech.png",
+  "description" : "This human mech is designed for heavy combat.",
+  "shortdescription" : "Human Soldier Mech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "humansoldiermech.tech"
+}

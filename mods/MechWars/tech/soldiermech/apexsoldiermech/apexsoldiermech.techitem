@@ -1,0 +1,10 @@
+{
+  "itemName" : "apexsoldiermechtech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanmech.png",
+  "description" : "This apex mech is designed for heavy combat.",
+  "shortdescription" : "Apex Soldier Mech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "apexsoldiermech.tech"
+}

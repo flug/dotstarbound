@@ -1,0 +1,24 @@
+{
+  "projectileName" : "EngineerHeal",
+  "bounces" : -1,
+  "level" : 3,
+  "damageKindImage" : "icon.png",
+  "frames" : "EngineerHeal.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+
+  "power" : 0,
+  "speed" : 70,
+  "timeToLive" : 0.1,
+  "piercing" : false,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [0, -8], [16, -8], [16, 8], [0, 8] ],
+  "universalDamage" : true,
+  "statusEffects" : [
+    {
+      "kind" : "health",
+      "amount" : 20
+    }
+  ]
+}

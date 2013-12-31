@@ -1,0 +1,10 @@
+{
+  "itemName" : "apexflightmechtech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/humanmech.png",
+  "description" : "Flight Mech. Excellent air maneuverability, but slow and clumsy on the ground.",
+  "shortdescription" : "Apex Flight Mech",
+  "inspectionKind" : "tech",
+
+  "techModule" : "apexflightmech.tech"
+}

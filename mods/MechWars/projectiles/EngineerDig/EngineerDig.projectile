@@ -1,0 +1,19 @@
+{
+  "projectileName" : "EngineerDig",
+  "physics" : "grenade",
+  "frames" : "lavaballoon.png",
+  "level" : 3,
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+  "power" : 0,
+  "timeToLive" : 0.2,
+
+  "actionOnReap" : [ {
+          "action" : "explosion",
+          "foregroundRadius" : 2,
+          "backgroundRadius" : 0,
+          "explosiveDamageAmount" : 20,
+          "delaySteps" : 1
+        } ],
+  "damageKind" : "default"
+}
