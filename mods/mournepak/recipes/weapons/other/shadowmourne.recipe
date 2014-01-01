@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 5000 },
+	{ "item" : "imperviumbar", "count" : 25 }
+  ],
+  "output" : { "item" : "shadowmourne", "count" : 1 },
+  "groups" : [ "mod", "metalworkstation", "weapons", "all" ]
+}
