@@ -1,0 +1,17 @@
+{
+  "koboldStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          "huntingknife",
+		  "koboldpanties",
+          [ "torch", 10 ],
+          [ "cornseed", 3],
+		  [ "wheat", 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

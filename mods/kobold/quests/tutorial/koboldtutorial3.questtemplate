@@ -1,0 +1,16 @@
+{
+  "id" : "koboldtutorial3.gearup",
+  "title" : "^#9be3d6;Food Fight",
+  "text" : "Uh oh...  You just realized that without the tribe to hunt with you, you'll have to hunt all by yourself to eat.  Luckily, you know exactly how to get it.  You could grow nasty, gross icky plants OR you could show what a brave little hunter you are and kill your meals yourself.  ^green;Get some delicious alien meat by killing a monster with your ^orange;hunting knife ^green;and cook it on a campfire to get ^orange;cooked alien meat^white;.",
+  "completionText" : "Nomnomnomnomblarglenom! Just like every meal, that was the tastiest food you've ever eaten.  If you are too scared to hunt for your dinners, planting things can be a much safer, less scary (and yes, less delicious) way to get food.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "cookedalienmeat", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "cookedalienmeat", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial3b.gearup"
+}

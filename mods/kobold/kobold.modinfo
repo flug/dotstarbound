@@ -1,0 +1,11 @@
+{
+	"name" : "Kobolds",
+	"version" : "Beta v. Angry Koala",
+	"path" : ".",
+	"dependencies" : [ ],
+	"metadata" : {
+		"author" : "The Kobold Community",
+		"description" : "Jreengus Occurred",
+		"version" : "0.1"
+	}
+}

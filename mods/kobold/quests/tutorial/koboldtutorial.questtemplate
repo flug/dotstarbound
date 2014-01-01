@@ -1,0 +1,16 @@
+{
+  "id" : "koboldtutorial.gearup",
+  "title" : "^#9be3d6;Get foods!",
+  "text" : "Well, now you've done it.  Separated from your clan by Beedulirus knows how far on a ship without any supplies, friends, or (most importantly) instruments.  Luckily, the humans have many interesting things (like shiny table-stars)  Now it's time to ^green;ransack the ship's stores and find ^pink;shiny fun things ^white;or ^pink;some kind of weapon or instrument or something. ^white Press ^green;E ^white;to interact with objects.",
+  "completionText" : "Look at the wonderful things you found! The matter manipulator allows you to manipulate almost anything in the gameworld, and the knife is good for stabbings and getting food.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "koboldtutorial2.gearup"
+}

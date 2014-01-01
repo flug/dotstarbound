@@ -1,0 +1,16 @@
+{
+  "id" : "koboldtutorial2.gearup",
+  "title" : "^#9be3d6;Tool Carver",
+  "text" : "You know that when the humanbolds came to your planet they had a ton of black rocks that they threw into a fire inside the shiny room.  You aren't sure what this is for, but it certainly seems important.  But to get that, you'll need tools. To produce tools you'll need to ^green;Make yourself a ^orange;crafting table. ^green;The pretty blue floor is for magically flying!",
+  "completionText" : "Crafting table built!  And you only slammed your paws with rocks seven times! The Elders would be so proud.  Using the crafting table will give you access to a wide range of new recipes. Collecting fuel and visiting a using the magical fireplace seems like the most likely way to get back home.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "woodencraftingtable1", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "woodencraftingtable1", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "koboldtutorial3.gearup"
+}
