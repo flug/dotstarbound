@@ -1,0 +1,177 @@
+{
+  "config" : {
+    "fuelMax" : 1000
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "ship_human_T6.png",
+      "position" : [0.0, 0.0]
+    }
+  ],
+
+  "blockKey" : [
+    {
+      "value" : [255, 255, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : false
+    },
+
+    {
+      "value" : [0, 0, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true
+    },
+
+    {
+      "value" : [255, 0, 0, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : true
+    },
+
+    {
+      "value" : [220, 20, 220, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : false,
+      "foregroundMat" : "steelplatform"
+    },
+
+    {
+      "value" : [230, 20, 220, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipdetails",
+      "foregroundMat" : "steelplatform"
+    },
+
+    {
+      "value" : [220, 20, 230, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipsupport",
+      "foregroundMat" : "steelplatform"
+    },
+
+    {
+      "value" : [230, 20, 230, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipwall",
+      "foregroundMat" : "steelplatform"
+    },
+
+    {
+      "value" : [0, 255, 0, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "apexshiplocker",
+      "objectParameters" : {
+        "treasurePools" : [ "apexStarterTreasure" ],
+        "level" : 1
+      }
+    },
+
+    {
+      "value" : [142, 255, 142, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "techstation"
+    },
+
+    {
+      "value" : [255, 87, 81, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "apexfuelhatch"
+    },
+
+    {
+      "value" : [255, 255, 0, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipdetails",
+      "object" : "apexshiplight"
+    },
+
+    {
+      "value" : [220, 220, 0, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "apexshiplight"
+    },
+
+    {
+      "value" : [255, 102, 0, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "apexshipdoor"
+    },
+
+    {
+      "value" : [174, 137, 81, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "shipengine"
+    },
+
+    {
+      "value" : [156, 0, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "teleporter",
+      "flags" : [ "playerSpawn" ]
+    },
+
+    {
+      "value" : [167, 167, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "boosterflamehuman"
+    },
+
+    {
+      "value" : [168, 168, 168, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "smallboosterflame"
+    },
+
+    {
+      "value" : [0, 255, 255, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "apexcaptainschair",
+      "objectDirection" : "left"
+    },
+
+    {
+      "value" : [122, 122, 122, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "object" : "invisiblelight"
+    },
+
+    {
+      "value" : [255, 255, 144],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipwall"
+    },
+
+    {
+      "value" : [255, 117, 144],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipdetails"
+    },
+
+    {
+      "value" : [255, 117, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "apexshipsupport"
+    }
+  ],
+
+  "blockImage" : "block_human_T6.png"
+}
