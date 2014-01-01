@@ -1,0 +1,39 @@
+{
+  "itemName" : "noximilienchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Luckely this one doesn't have to be powerd.",
+  "shortdescription" : "Xelor chestpiece",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "Bsleeve.png",
+    "frontSleeve" : "Fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "Bsleeve.png",
+    "frontSleeve" : "Fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 1,
+      "amount" : 0.5
+    }
+  ],
+
+  "colorOptions" : [
+    /* NONE */
+  ]
+}
