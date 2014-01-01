@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 10 }
+  ],
+  "output" : { "item" : "Hox_VariaHelm", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}
