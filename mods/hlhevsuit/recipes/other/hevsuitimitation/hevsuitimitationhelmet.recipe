@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "glassmaterial", "count" : 5 },
+    { "item" : "silverbar", "count" : 5 },
+	{ "item" : "ironbar", "count" : 25 },
+	{ "item" : "money", "count" : 250 }
+  ],
+  "output" : { "item" : "hevsuitimitationhead", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

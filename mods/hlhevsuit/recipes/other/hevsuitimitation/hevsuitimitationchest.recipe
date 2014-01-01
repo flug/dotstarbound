@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 10 },
+	{ "item" : "ironbar", "count" : 35 },
+	{ "item" : "money", "count" : 400 }
+  ],
+  "output" : { "item" : "hevsuitimitationchest", "count" : 1 },
+  "groups" : [ "anvil", "armors", "all" ]
+}

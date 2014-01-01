@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "processor", "count" : 1 },
+    { "item" : "platinumbar", "count" : 10 },
+	{ "item" : "aegisaltbar", "count" : 35 },
+	{ "item" : "money", "count" : 800 }
+  ],
+  "output" : { "item" : "hevsuitchest", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "armors", "all" ]
+}

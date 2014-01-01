@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "platinumbar", "count" : 3 },
+    { "item" : "aegisaltbar", "count" : 15 },
+	{ "item" : "money", "count" : 300 }
+  ],
+  "output" : { "item" : "hevsuitpants", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "armors", "all" ]
+}
