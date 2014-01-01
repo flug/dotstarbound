@@ -1,0 +1,14 @@
+{
+  "itemName" : "rensouhouchan",
+  "inventoryIcon" : "icons.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Legendary",
+  "description" : "These miniature, sentient gun turrets follow the Destroyer Shimakaze wherever she goes.",
+  "shortdescription" : "Rensouhou-chan",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "colorOptions" : [
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "akatsukidestroyer", "count" : 1 },
+  "groups" : [ "spinningwheel", "mod", "all", "other" ]
+}

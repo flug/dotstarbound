@@ -1,0 +1,14 @@
+{
+  "itemName" : "akatsukidestroyer",
+  "inventoryIcon" : "icons.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Rare",
+  "description" : "Akatsuki-class Destroyer engines. Fitted with protective armor plating as well as 12.7cm cannons and torpedoes.",
+  "shortdescription" : "Akatsuki-Class DD",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "colorOptions" : [
+  ]
+}

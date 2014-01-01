@@ -1,0 +1,34 @@
+{
+  "itemName" : "akatsukihead",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A cap worn by certain Akatsuki-class Destroyers. Couldn't be blown away easily.",
+  "shortdescription" : "Akatsuki-Class Cap",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [    {
+      "kind" : "ColdProtection",
+      "amount" : "1"
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 5,
+      "amount" : 0.25
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.5
+    }
+  ],
+
+  "colorOptions" : [
+  ]
+}
