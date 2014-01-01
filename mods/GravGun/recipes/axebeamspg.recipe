@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "axebeam", "count" : 1 },
+	{ "item" : "crystalgreen", "count" : 1 }
+            ],
+  "output" : { "item" : "axebeamspg", "count" : 1 },
+  "groups" : [ "mod", "all" ]
+}

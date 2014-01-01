@@ -1,0 +1,6 @@
+{
+    "name" : "GravGun",
+    "version" : "Beta v. Angry Koala",
+    "path" : ".",
+    "dependencies" : [ "tabularasa1.5"]
+}
