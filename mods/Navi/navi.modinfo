@@ -1,0 +1,11 @@
+{
+	"name" : "Na'vi",
+	"version" : "Beta v. Angry Koala",
+	"path" : ".",
+	"dependencies" : [ ],
+	"metadata" : {
+		"author" : "SlaxX",
+		"description" : "Na'vi from Avatar, based on Kawa's Felins mod. Thx ;)",
+		"version" : "1.0"
+	}
+}

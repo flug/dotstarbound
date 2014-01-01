@@ -1,0 +1,78 @@
+{
+	"__merge" : [],			//Still a shitload to do :P
+	"scriptConfig" : {
+		"converse" : {
+			"dialog" : {
+			    "default" : [ "I have nothing to say to you" ],
+				"apex" : {
+					"navi" : [
+						"Hi blue Guy!"
+					]
+				},
+				"floran" : {
+					"navi" : [
+						"Hi blue Guy!"
+					]
+				},
+				"human" : {
+					"navi" : [
+						"Hi blue Guy!"
+					]
+				},
+				"avian" : {
+					"navi" : [
+						"Hi blue Guy!"
+					]
+				},
+				"glitch" : {
+					"navi" : [
+						"Hi blue Guy!"
+					]
+				},
+				"hylotl" : {
+					"navi" : [
+						"Hi blue Guy!"
+					]
+				},
+				"navi" : {
+					"default" : [
+						"Hi~!"
+					],
+					"navi" : [
+						"Hello~!"
+					]
+				}
+			}
+		},
+
+		"flee" : {
+			"dialog" : {
+				"helpme" : {
+					"navi" : [
+						"HELP!",
+						"Y U DO DIS?"
+					]
+				}
+			}
+		}
+
+	},
+
+
+	"items" : {
+		"navi" : [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "navitop", "data" : { "colorIndex" : 1 } }, { "name" : "navitop", "data" : { "colorIndex" : 3 } }, { "name" : "navitop", "data" : { "colorIndex" : 4 } }, { "name" : "navitop", "data" : { "colorIndex" : 5 } }, { "name" : "navitop", "data" : { "colorIndex" : 6 } }, { "name" : "navitop", "data" : { "colorIndex" : 7 } }, { "name" : "navitop", "data" : { "colorIndex" : 8 } }, { "name" : "navitop", "data" : { "colorIndex" : 9 } }
+					],
+
+					"legs" : [
+						{ "name" : "navipants", "data" : { "colorIndex" : 1 } }, { "name" : "navipants", "data" : { "colorIndex" : 3 } }, { "name" : "navipants", "data" : { "colorIndex" : 4 } }, { "name" : "navipants", "data" : { "colorIndex" : 5 } }, { "name" : "navipants", "data" : { "colorIndex" : 6 } }, { "name" : "navipants", "data" : { "colorIndex" : 7 } }, { "name" : "navipants", "data" : { "colorIndex" : 8 } }, { "name" : "navipants", "data" : { "colorIndex" : 9 } }
+					]
+				}
+			] ]
+		]
+	}
+
+}

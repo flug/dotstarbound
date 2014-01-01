@@ -1,0 +1,14 @@
+{
+  "naviStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+          "flashlight",
+          [ "torch", 10],
+          [ "floranstarter", 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

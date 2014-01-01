@@ -1,0 +1,176 @@
+{
+  "kind" : "navi",
+  "playerSpecies" : true,
+  "nameGen" : [ "/species/navimgen.config:names", "/species/navifgen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/humanhurt_male2.wav", "/sfx/humanoid/humanhurt_female2.wav" ],
+  "charGenTextLabels" : [ "SKIN COLOR", "HAIR STYLE", "SHIRT", "PANTS", "SECOND COLOR", "HAIR COLOR", "SHIRT COLOR", "PANTS COLOR", "NAVI", "DISPOSITION" ],
+  "defaultBlueprints" : {
+    "tier1" : [
+      { "item" : "florantier1hammer" },
+      { "item" : "florantier1shortsword" },
+      { "item" : "florantier1broadsword" },
+      { "item" : "florantier1spear" },
+      { "item" : "florantier1axe" },
+      { "item" : "florantier1dagger" },
+      { "item" : "florantier1head" },
+      { "item" : "florantier1chest" },
+      { "item" : "florantier1pants" },
+      { "item" : "floranfurnivourchest" },
+      { "item" : "floranfurnivourlegs" },
+      { "item" : "floranhunterchest" },
+      { "item" : "floranhunterlegs" },
+      { "item" : "floranleafchest" },
+      { "item" : "floranleaflegs" },
+      { "item" : "floranpeltchest" },
+      { "item" : "floranpeltlegs" },
+      { "item" : "meatandmarrow" },
+      { "item" : "oculemonstew" },
+      { "item" : "bread" },
+      { "item" : "offal" },
+      { "item" : "hotbone" },
+      { "item" : "burningeyeballs" },
+      { "item" : "flagfloran" }
+    ],
+    "tier2" : [
+      { "item" : "florantier2hammer" },
+      { "item" : "florantier2shortsword" },
+      { "item" : "florantier2broadsword" },
+      { "item" : "florantier2spear" },
+      { "item" : "florantier2axe" },
+      { "item" : "florantier2dagger" },
+      { "item" : "florantier2head" },
+      { "item" : "florantier2chest" },
+      { "item" : "florantier2pants" },
+      { "item" : "spawnerfloran" }
+    ],
+    "tier3" : [
+      { "item" : "florantier3head" },
+      { "item" : "florantier3chest" },
+      { "item" : "florantier3pants" },
+      { "item" : "florantier3hammer" },
+      { "item" : "florantier3shortsword" },
+      { "item" : "florantier3broadsword" },
+      { "item" : "florantier3spear" },
+      { "item" : "florantier3axe" },
+      { "item" : "florantier3dagger" }
+    ],
+    "tier4" : [
+      { "item" : "florantier4head" },
+      { "item" : "florantier4chest" },
+      { "item" : "florantier4pants" },
+      { "item" : "florantier4hammer" },
+      { "item" : "florantier4shortsword" },
+      { "item" : "florantier4broadsword" },
+      { "item" : "florantier4spear" },
+      { "item" : "florantier4axe" },
+      { "item" : "florantier4dagger" }
+    ],
+    "level32" : [
+      { "item" : "florantier5head" },
+      { "item" : "florantier5chest" },
+      { "item" : "florantier5pants" },
+      { "item" : "florantier5hammer" },
+      { "item" : "florantier5shortsword" },
+      { "item" : "florantier5broadsword" },
+      { "item" : "florantier5spear" },
+      { "item" : "florantier5axe" },
+      { "item" : "florantier5dagger" }
+    ],
+    "level33" : [
+      { "item" : "florantier6head" },
+      { "item" : "florantier6chest" },
+      { "item" : "florantier6pants" },
+      { "item" : "florantier6hammer" },
+      { "item" : "florantier6shortsword" },
+      { "item" : "florantier6broadsword" },
+      { "item" : "florantier6spear" },
+      { "item" : "florantier6axe" },
+      { "item" : "florantier6dagger" }
+    ],
+    "level34" : [
+      { "item" : "florantier7head" },
+      { "item" : "florantier7chest" },
+      { "item" : "florantier7pants" },
+      { "item" : "florantier7hammer" },
+      { "item" : "florantier7shortsword" },
+      { "item" : "florantier7broadsword" },
+      { "item" : "florantier7spear" },
+      { "item" : "florantier7axe" },
+      { "item" : "florantier7dagger" }
+    ],
+    "level35" : [
+      { "item" : "florantier8head" },
+      { "item" : "florantier8chest" },
+      { "item" : "florantier8pants" },
+      { "item" : "florantier8hammer" },
+      { "item" : "florantier8shortsword" },
+      { "item" : "florantier8broadsword" },
+      { "item" : "florantier8spear" },
+      { "item" : "florantier8axe" },
+      { "item" : "florantier8dagger" }
+    ],
+    "level36" : [
+      { "item" : "florantier9head" },
+      { "item" : "florantier9chest" },
+      { "item" : "florantier9pants" },
+      { "item" : "florantier9hammer" },
+      { "item" : "florantier9shortsword" },
+      { "item" : "florantier9broadsword" },
+      { "item" : "florantier9spear" },
+      { "item" : "florantier9axe" },
+      { "item" : "florantier9dagger" }
+    ],
+    "level37" : [
+      { "item" : "florantier10head" },
+      { "item" : "florantier10chest" },
+      { "item" : "florantier10pants" },
+      { "item" : "florantier10hammer" },
+      { "item" : "florantier10shortsword" },
+      { "item" : "florantier10broadsword" },
+      { "item" : "florantier10spear" },
+      { "item" : "florantier10axe" },
+      { "item" : "florantier10dagger" }
+    ]
+  },
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/Navimale.png",
+      "hair" : [ "male1" ],
+      "shirt" : [ "none" ],
+      "pants" : [ "navipants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/Navifemale.png",
+      "hair" : [ "fem1" ],
+      "shirt" : [ "navitop" ],
+      "pants" : [ "navipants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    { "FFCA8A" : "5882FA", "E0975C" : "5882FA", "A85636" : "2E64FE", "6F2919" : "0040FF" },
+	{ "FFCA8A" : "2E64FE", "E0975C" : "2E64FE", "A85636" : "0040FF", "6F2919" : "013ADF" },
+	{ "FFCA8A" : "0040FF", "E0975C" : "0040FF", "A85636" : "013ADF", "6F2919" : "0431B4" }
+  ],
+  "undyColor" : [
+    { "F32200" : "5882FA", "DC1F00" : "5882FA", "BE1B00" : "2E64FE", "951500" : "0040FF" },
+	{ "F32200" : "2E64FE", "DC1F00" : "2E64FE", "BE1B00" : "0040FF", "951500" : "013ADF" },
+	{ "F32200" : "0040FF", "DC1F00" : "0040FF", "BE1B00" : "013ADF", "951500" : "0431B4" }
+  ],
+  "hairColor" : [
+    {}
+  ]
+}

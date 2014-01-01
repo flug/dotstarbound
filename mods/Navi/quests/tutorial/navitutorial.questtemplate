@@ -1,0 +1,16 @@
+{
+  "id" : "navitutorial.gearup",
+  "title" : "^#9be3d6;Fresh Meat",
+  "text" : "After the Humans burned down your Hometree, you decided to follow them with a Floran Spaceship you found. Unfortunately, you ran out of fuel in orbit of an unknown planet. Before setting out in search of fuel, ^green;search your ship's storage for a ^pink;matter manipulator^green; and ^pink;Venus Sword^white;. Press ^green;E ^white;to interact with objects.",
+  "completionText" : "Well done! The Matter Manipulator allows you to manipulate almost anything in the World, and the Sword will help you to defend yourself.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "navitutorial2.gearup"
+}
