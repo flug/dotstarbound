@@ -1,0 +1,38 @@
+{
+  "objectName" : "vehiclestation",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vehiclestation.config",
+    "filter" : [ "vehiclestation" ]
+  },
+  "printable" : false,
+  "description" : "Make those Mechs!",
+  "shortdescription" : "Vehicle Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : "200",
+
+  "apexDescription" : "A station where an engineer can make vehicles.",
+  "avianDescription" : "A chance to display one's ability to DESTROY!",
+  "floranDescription" : "Floran ussse station. Make thingss go boom.",
+  "glitchDescription" : "Inspired. Destruction module activated.",
+  "humanDescription" : "I can use materials I've found here to create new vehicles.",
+  "hylotlDescription" : "A chance to drive.",
+
+  "inventoryIcon" : "vehiclestationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vehiclestation.png:default.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 16,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

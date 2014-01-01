@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "apexmechbody", "count" : 1 },
+		{ "item" : "apexmechcore", "count" : 1 },
+		{ "item" : "apexmechleg", "count" : 2 },
+		{ "item" : "apexmechgun", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "apexMechTech-chip",
+    "count" : 1
+  },
+  "groups" : [ "vehiclestation", "items", "vehicles", "apexmech" ]
+}

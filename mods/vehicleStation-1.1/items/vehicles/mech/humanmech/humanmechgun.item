@@ -1,0 +1,7 @@
+{
+  "itemName" : "humanmechgun",
+  "rarity" : "Common",
+  "inventoryIcon" : "humanmechgun.png",
+  "description" : "A Mech's Gun",
+  "shortdescription" : "Mech Gun"
+}

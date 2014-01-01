@@ -1,0 +1,11 @@
+{
+	"name" : "vehicleStation-1.1",
+	"version" : "Beta v. Angry Koala",
+	"path" : ".",
+	"dependencies" : [ ],
+	"metadata": {
+    "author" : "Carty (or Carty1234 on the forum) and Xlotl (The BoS players)",
+    "description" : "Today we're cancelling the apocalypse!  With these craftable mechs",
+    "support_url" : "http://community.playstarbound.com/index.php?threads/vehicle-crafting-station.55271/"
+  }
+}

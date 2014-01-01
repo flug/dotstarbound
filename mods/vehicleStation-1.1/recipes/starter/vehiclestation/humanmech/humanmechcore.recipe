@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "humanmechcore",
+    "count" : 1
+  },
+  "groups" : [ "vehiclestation", "items", "vehicles" ]
+}

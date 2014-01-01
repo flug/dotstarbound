@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "humanmechbody", "count" : 1 },
+		{ "item" : "humanmechcore", "count" : 1 },
+		{ "item" : "humanmechleg", "count" : 2 },
+		{ "item" : "humanmechgun", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "humanMechTech-chip",
+    "count" : 1
+  },
+  "groups" : [ "vehiclestation", "items", "vehicles", "humanmech" ]
+}
