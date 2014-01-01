@@ -1,0 +1,11 @@
+{
+  "name" : "More Capes!",
+  "version" : "Beta v. Angry Koala",
+  "path" : ".",
+   "metadata" : {
+    "displayName" : "More Capes!",
+    "author": "The Green Calx",
+    "description" : "adds more craftable back items with various status effects",
+    "version": "1.3"
+  }
+}

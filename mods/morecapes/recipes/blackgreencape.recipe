@@ -1,0 +1,10 @@
+{
+	"input" : [
+		{ "item" : "fabric", "count" : 20},
+		{ "item" : "aegisaltbar", "count" : 1}
+	],
+	
+		"output" : { "item" : "blackgreencape", "count" : 1},
+		"groups" : [ "spinningwheel", "armors", "all" ]
+
+}

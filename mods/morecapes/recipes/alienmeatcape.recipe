@@ -1,0 +1,11 @@
+{
+	"input" : [
+	    { "item" : "fabric", "count" : 10 },
+		{ "item" : "alienmeat", "count" : 5 },
+		{ "item" : "leather", "count" : 5 }
+	],
+	
+		"output" : { "item" : "alienmeatcape", "count" : 1},
+		"groups" : [ "spinningwheel", "armors", "all" ]
+
+}
