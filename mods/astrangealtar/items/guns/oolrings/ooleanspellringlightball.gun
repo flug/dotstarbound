@@ -1,0 +1,29 @@
+{
+  "itemName" : "ooleanspellringlightball",
+  "description" : "Emits a ball of light energy.",
+  "shortdescription" : "Oolean Energyring",
+  "inventoryIcon" : "ring0.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 5,
+  "rarity" : "Rare",
+  "image" : "",
+  "recoilTime" : 0.1,
+  "handPosition" : [0, 0],
+  "firePosition" : [10, 3],
+
+  "fireTime" : .08,
+  "twoHanded" : false,
+  "walkWhileFiring" : true,
+ 
+  "projectileType" : "lightball",
+  "projectile" : {
+    "speed" : 10,
+    "power" : 10
+  },
+
+ "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/tankflashmuzzle/tankflashmuzzle.animation",
+    "fireSound" : [ { "file" : "/sfx/tech/tech_blink.wav" } ]
+  }
+}

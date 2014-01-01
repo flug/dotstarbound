@@ -1,0 +1,29 @@
+{
+  "itemName" : "ooleanspellringflame",
+  "description" : "Like a blowtorch.",
+  "shortdescription" : "Oolean Flamering",
+  "inventoryIcon" : "ring0.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "Rare",
+  "image" : "",
+  "recoilTime" : 0.1,
+  "handPosition" : [0, 0],
+  "firePosition" : [3, 0],
+
+  "fireTime" : 0.1,
+  "twoHanded" : false,
+  "walkWhileFiring" : false,
+ 
+  "projectileType" : "flame",
+  "projectile" : {
+    "speed" : 10,
+    "power" : 10
+  },
+
+   "muzzleEffect" : {
+    "animation" : "/animations/smallflame/smallflame.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/fireblast.wav" } ]
+  }
+}

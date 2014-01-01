@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "torch", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ooleansonicv",
+    "count" : 1
+  },
+  "groups" : [ "ooleanstrangealtar", "all", "other" ]
+}

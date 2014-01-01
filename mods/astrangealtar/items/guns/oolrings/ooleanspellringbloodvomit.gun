@@ -1,0 +1,30 @@
+{
+  "itemName" : "ooleanspellringbloodvomit",
+  "description" : "When you wear this, you shoot red stuff out of your hands.  We're not sure that is healthy.  You might want to get that checked.",
+  "shortdescription" : "Oolean Bloodring",
+  "inventoryIcon" : "ring0.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 5,
+  "rarity" : "Rare",
+  "image" : "",
+  "recoilTime" : 0.1,
+  "handPosition" : [0, 0],
+  "firePosition" : [3, 0],
+
+  "fireTime" : 0.4,
+  "twoHanded" : false,
+  "walkWhileFiring" : true,
+ 
+  "projectileType" : "bloodvomit",
+  "projectile" : {
+    "speed" : 50,
+    "power" : 30
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/axehitspark/axehitspark.animation",
+    "fireSound" : [ { "file" : "/sfx/tech/tech_blink.wav" } ],
+	"color" : [ 255, 0, 0 ]
+  }
+}

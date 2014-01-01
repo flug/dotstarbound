@@ -1,0 +1,29 @@
+{
+  "itemName" : "ooleanspellringiceshot",
+  "description" : "Shoots rocks of ice.",
+  "shortdescription" : "Oolean Icering",
+  "inventoryIcon" : "ring0.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 5,
+  "rarity" : "Rare",
+  "image" : "",
+  "recoilTime" : 0.1,
+  "handPosition" : [0, 0],
+  "firePosition" : [3, 0],
+
+  "fireTime" : 0.6,
+  "twoHanded" : false,
+  "walkWhileFiring" : true,
+ 
+  "projectileType" : "iceshot",
+  "projectile" : {
+    "speed" : 9,
+    "power" : 30
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/coldbreath/coldbreath.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/impact_plasma.wav" } ]
+  }
+}

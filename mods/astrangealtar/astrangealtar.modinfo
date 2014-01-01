@@ -1,0 +1,9 @@
+{
+	"name" : "a strange altar",
+	"version" : "Beta v. Angry Koala",
+	"path" : ".",
+	"metadata": {
+		"author" : "ool",
+		"modversion" : ".03"
+	}
+}

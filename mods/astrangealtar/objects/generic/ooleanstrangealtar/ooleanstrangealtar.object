@@ -1,0 +1,44 @@
+{
+  "objectName" : "ooleanstrangealtar",
+   "objectType" : "interactable",
+   "category" : "crafting",
+  "rarity" : "Common",
+  "description" : "A strange kind of.. shrine....  ...it makes you feel.. .......uncomfortable..",
+  "shortdescription" : "A strange altar",
+  "race" : "generic",
+  "price" : "500",
+  "interactAction" : "OpenCraftingInterface",
+
+  "interactData" : {
+    "config" : "/interface/windowconfig/ooleanstrangealtar.config",
+    "filter" : [ "ooleanstrangealtar" ]
+  },
+  "apexDescription" : "All.. hail... Ool...",
+  "avianDescription" : "All.. hail... Ool...",
+  "floranDescription" : "All.. hail... Ool...",
+  "glitchDescription" : "All.. hail... Ool...",
+  "humanDescription" : "All.. hail... Ool...",
+  "hylotlDescription" : "All.. hail... Ool...",
+  "learnBlueprintsOnPickup" :
+	[ 
+		"ooleandeathaxe",
+		"ooleandeathaxe2",
+		"ooleansonicv",
+		"ooleanplasmax",
+		"ooleanteslax"
+	],
+
+  "inventoryIcon" : "/objects/generic/frogstatue/frogstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "/objects/generic/frogstatue/frogstatueicon.png",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "itemName" : "ooleanspellringclustergoo",
+  "description" : "You can pick your friends...",
+  "shortdescription" : "Oolean Snotring",
+  "inventoryIcon" : "ring0.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 5,
+  "rarity" : "Rare",
+  "image" : "",
+  "recoilTime" : 0.1,
+  "handPosition" : [0, 0],
+  "firePosition" : [3, 0],
+
+  "fireTime" : 0.4,
+  "twoHanded" : false,
+  "walkWhileFiring" : true,
+ 
+  "projectileType" : "clustergoo",
+  "projectile" : {
+    "speed" : 10,
+    "power" : 10
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/plasmapoof/plasmapoof.animation",
+    "fireSound" : [ { "file" : "/sfx/projectiles/goo_spit2.wav" } ]
+  }
+}
