@@ -1,0 +1,17 @@
+{
+  "projectileName" : "CrescentRoseProj",
+  "frames" : "CrescentRoseProj.png",
+  "animationCycle" : 0.25,
+  "level" : 7,
+  "frameNumber" : 1,
+  "damageKindImage" : "CrescentRoseProjIcon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "default"
+}

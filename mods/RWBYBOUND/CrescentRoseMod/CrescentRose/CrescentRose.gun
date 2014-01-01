@@ -1,0 +1,31 @@
+{
+  "itemName" : "CrescentRose",
+  "inventoryIcon" : "CrescentRoseIcon.png",
+  "description" : "A folded weapon that is a necessity for wolf slaying",
+  "shortdescription" : "Crescent Rose [Folded]",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 10,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "image" : "CrescentRose.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-5.5, -3],
+  "firePosition" : [16, 3],
+  "classmultiplier" : 0.4,
+
+  "fireTime" : 0.5,
+  "twoHanded" : true,
+
+  "projectileType" : "CrescentRoseProj",
+  "projectile" : {
+	"power": 60,
+	"speed": 60,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/CrescentRose/muzzleflash/CrescentRoseMF.animation",
+    "fireSound" : [ { "file" : "/CrescentRose/sfx/CrescentRoseSound.wav" } ]
+  }
+}

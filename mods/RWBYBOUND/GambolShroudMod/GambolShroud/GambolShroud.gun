@@ -1,0 +1,31 @@
+{
+  "itemName" : "GambolShroud",
+  "inventoryIcon" : "GambolShroudIcon.png",
+  "description" : "Black the beast descends from shadows.",
+  "shortdescription" : "Gambol Shroud [Folded]",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 10,
+  "rarity" : "Rare",
+  "inspectionKind" : "gun",
+  "image" : "GambolShroud.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [5.5, -3],
+  "firePosition" : [12, 3],
+  "classmultiplier" : 0.4,
+
+  "fireTime" : 0.2,
+  "twoHanded" : false,
+
+  "projectileType" : "GambolShroudProj",
+  "projectile" : {
+	"power": 25,
+	"speed": 60,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/GambolShroud/muzzleflash/GambolShroudMF.animation",
+    "fireSound" : [ { "file" : "/GambolShroud/sfx/GambolShroudSound.wav" } ]
+  }
+}
