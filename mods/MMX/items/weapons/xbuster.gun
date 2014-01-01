@@ -1,0 +1,32 @@
+{
+  "itemName" : "xbuster",
+  "inventoryIcon" : "xbustericon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The X-Buster of a famous S-Class Maverick-Hunter.",
+  "shortdescription" : "X-Buster",
+  "image" : "xbuster.png:<frame>",
+  "imageFrameSelector" : "xbusterImageSelector",
+  "handPosition" : [0, -0],
+  "firePosition" : [10, 0.5],
+  "level" : 1,
+  "fireTime" : 0.35,
+  "twoHanded" : false,
+  "fireOnRelease" : true,
+  
+  "projectileType" : "xbustershot",
+  "powerProjectileType" : "xchargedshot",
+  "powerProjectileTime" : [0.8, 60],
+  "projectile" : {
+    "speed" : 40,
+    "power" : 5,
+    "powerCurve" : "xbusterTimeMultiplier",
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/xbusterflash/xbusterflash.animation",
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol4.wav" } ]
+  }
+}

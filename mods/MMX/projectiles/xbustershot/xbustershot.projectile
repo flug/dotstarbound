@@ -1,0 +1,20 @@
+{
+  "projectileName" : "xbustershot",
+  "physics" : "laser",
+  "bounces" : 0,
+  "level" : 3,
+  "damageKindImage" : "icon.png",
+  "frames" : "xbustershot.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 50,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [90, 90, 10],
+  "damageKind" : "plasma"
+}

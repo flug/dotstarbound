@@ -1,0 +1,23 @@
+{
+  "projectileName" : "xchargedshot",
+  "physics" : "laser",
+  "bounces" : 0,
+  "pointLight" : true,
+  "level" : 3,
+  "timeToLive" : 4,
+  "frames" : "xchargedshot.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 1,
+  "animationCycle" : 0.2,
+  "lightColor" : [10, 150, 10],
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "power" : 50,
+  "damageType" : "hitTest",
+  "damageKind" : "slash"
+}

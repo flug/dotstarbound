@@ -1,0 +1,23 @@
+{
+  "projectileName" : "zchargedshot",
+  "physics" : "laser",
+  "bounces" : 0,
+  "pointLight" : true,
+  "level" : 3,
+  "timeToLive" : 3,
+  "frames" : "zchargedshot.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 1,
+  "animationCycle" : 0.2,
+  "lightColor" : [20, 90, 200],
+  "frameNumber" : 3,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "power" : 50,
+  "damageType" : "hitTest",
+  "damageKind" : "slash"
+}

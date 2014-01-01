@@ -1,0 +1,10 @@
+{
+  "name" : "MMX",
+    "version" : "Beta v. Angry Koala",
+  "path" : ".",
+  "metadata": {
+    "author" : "Crystan/Dragonith",
+    "description" : "",
+    "support_url" : ""
+  }
+}
