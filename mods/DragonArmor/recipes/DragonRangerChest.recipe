@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 1 }
+  ],
+  "output" : { "item" : "DragonRangerChest", "count" : 1 },
+  "groups" : [ "spinningwheel", "armors", "all" ]
+}

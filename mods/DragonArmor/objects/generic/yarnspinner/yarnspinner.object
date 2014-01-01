@@ -1,0 +1,6 @@
+{
+  "__merge" : [],
+  "learnBlueprintsOnPickup" : [
+    "DragonRangerChest", "DragonRangerHead", "DragonRangerLegs", "DragonRangerChestUnarmed", "TyrannoRangerChestArmed", "MammothRangerChestArmed"
+  ]
+}
