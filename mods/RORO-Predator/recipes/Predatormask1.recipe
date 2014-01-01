@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "laserdiode", "count" : 1 },
+    { "item" : "circuitboard", "count" : 1 },
+    { "item" : "imperviumbar", "count" : 20 },
+    { "item" : "money", "count" :10000 },
+    { "item" : "nanostove", "count" : 1 },
+    { "item" : "spaceairtankback", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "Predatormask1",
+    "count" : 1
+  },
+  "groups" : [ "mod","plain","armors", "all" ]
+}
