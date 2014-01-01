@@ -1,0 +1,16 @@
+{
+  "id" : "halfwarp2.gearup",
+  "title" : "^#9be3d6;Chop Chop",
+  "text" : "Now that you have a Matter Manipulator, you can beam down to the surface of this nearby planet and gather materials. Make a crafting table out of logs by cutting down a tree.",
+  "completionText" : "Wonderful. This is the start of a new life.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "woodencraftingtable1", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "woodencraftingtable1", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "halfwarp3.gearup"
+}

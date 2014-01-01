@@ -1,0 +1,89 @@
+{
+	"__merge" : [],
+	"scriptConfig" : {
+		"converse" : {
+			"dialog" : {
+				"apex" : {
+					"halfwarps" : [
+						"Placeholder."
+					]
+				},
+				"floran" : {
+					"halfwarps" : [
+						"Placeholder."
+					]
+				},
+				"human" : {
+					"halfwarps" : [
+						"Placeholder."
+					]
+				},
+				//TODO: HYLOTL, GLITCH, AVIAN
+				"halfwarps" : {
+					"default" : [
+						"Placeholder."
+					],
+					"halfwarps" : [
+						"Placeholder."
+					]
+				}
+			}
+		},
+
+		"flee" : {
+			"dialog" : {
+				"helpme" : {
+					"halfwarps" : [
+						"nO!",
+						"sToP!"
+					]
+				}
+			}
+		}
+
+	},
+
+
+	"items" : {
+		"halfwarps" : [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "justajacket", "data" : { "colorIndex" : 1 } }, { "name" : "justajacket", "data" : { "colorIndex" : 3 } }, { "name" : "justajacket", "data" : { "colorIndex" : 4 } }, { "name" : "traditionalchest", "data" : { "colorIndex" : 5 } }, { "name" : "justajacket", "data" : { "colorIndex" : 6 } }, { "name" : "justajacket", "data" : { "colorIndex" : 7 } }, { "name" : "justajacket", "data" : { "colorIndex" : 8 } }, { "name" : "justajacket", "data" : { "colorIndex" : 9 } },
+						{ "name" : "conceptchest", "data" : { "colorIndex" : 1 } }, { "name" : "conceptchest", "data" : { "colorIndex" : 3 } }, { "name" : "conceptchest", "data" : { "colorIndex" : 4 } }, { "name" : "conceptchest", "data" : { "colorIndex" : 5 } }, { "name" : "conceptchest", "data" : { "colorIndex" : 6 } }, { "name" : "conceptchest", "data" : { "colorIndex" : 7 } }, { "name" : "conceptchest", "data" : { "colorIndex" : 8 } }, { "name" : "conceptchest", "data" : { "colorIndex" : 9 } },
+						{ "name" : "shirtshort1chest", "data" : { "colorIndex" : 1 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 3 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 4 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 5 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 6 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 7 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 8 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 9 } },
+						{ "name" : "shirtlong1chest", "data" : { "colorIndex" : 1 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 3 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 4 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 5 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 6 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 7 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 8 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 9 } }
+					],
+
+					"legs" : [
+						{ "name" : "traditionallegs", "data" : { "colorIndex" : 1 } }, { "name" : "traditionallegs", "data" : { "colorIndex" : 3 } }, { "name" : "traditionallegs", "data" : { "colorIndex" : 4 } }, { "name" : "traditionallegs", "data" : { "colorIndex" : 5 } }, { "name" : "traditionallegs", "data" : { "colorIndex" : 6 } }, { "name" : "traditionallegs", "data" : { "colorIndex" : 7 } }, { "name" : "traditionallegs", "data" : { "colorIndex" : 8 } }, { "name" : "traditionallegs", "data" : { "colorIndex" : 9 } },
+						{ "name" : "jeans2legs", "data" : { "colorIndex" : 1 } }, { "name" : "jeans2legs", "data" : { "colorIndex" : 3 } }, { "name" : "jeans2legs", "data" : { "colorIndex" : 4 } }, { "name" : "jeans2legs", "data" : { "colorIndex" : 5 } }, { "name" : "jeans2legs", "data" : { "colorIndex" : 6 } }, { "name" : "jeans2legs", "data" : { "colorIndex" : 7 } }, { "name" : "jeans2legs", "data" : { "colorIndex" : 8 } }, { "name" : "jeans2legs", "data" : { "colorIndex" : 9 } },
+						{ "name" : "jeans1legs", "data" : { "colorIndex" : 1 } }, { "name" : "jeans1legs", "data" : { "colorIndex" : 3 } }, { "name" : "jeans1legs", "data" : { "colorIndex" : 4 } }, { "name" : "jeans1legs", "data" : { "colorIndex" : 5 } }, { "name" : "jeans1legs", "data" : { "colorIndex" : 6 } }, { "name" : "jeans1legs", "data" : { "colorIndex" : 7 } }, { "name" : "jeans1legs", "data" : { "colorIndex" : 8 } }, { "name" : "jeans1legs", "data" : { "colorIndex" : 9 } }
+					]
+				},
+				{
+					"chest" : [
+						{ "name" : "kimonochest", "data" : { "colorIndex" : 1 } }, { "name" : "kimonochest", "data" : { "colorIndex" : 3 } }, { "name" : "kimonochest", "data" : { "colorIndex" : 4 } }, { "name" : "kimonochest", "data" : { "colorIndex" : 5 } }, { "name" : "kimonochest", "data" : { "colorIndex" : 6 } }, { "name" : "kimonochest", "data" : { "colorIndex" : 7 } }, { "name" : "kimonochest", "data" : { "colorIndex" : 8 } }, { "name" : "kimonochest", "data" : { "colorIndex" : 9 } }
+					],
+
+					"legs" : [
+						{ "name" : "kimonolegs", "data" : { "colorIndex" : 1 } }, { "name" : "kimonolegs", "data" : { "colorIndex" : 3 } }, { "name" : "kimonolegs", "data" : { "colorIndex" : 4 } }, { "name" : "kimonolegs", "data" : { "colorIndex" : 5 } }, { "name" : "kimonolegs", "data" : { "colorIndex" : 6 } }, { "name" : "kimonolegs", "data" : { "colorIndex" : 7 } }, { "name" : "kimonolegs", "data" : { "colorIndex" : 8 } }, { "name" : "kimonolegs", "data" : { "colorIndex" : 9 } }
+					]
+				},
+				{
+					"chest" : [
+						{ "name" : "monkchest", "data" : { "colorIndex" : 1 } }, { "name" : "monkchest", "data" : { "colorIndex" : 3 } }, { "name" : "monkchest", "data" : { "colorIndex" : 4 } }, { "name" : "monkchest", "data" : { "colorIndex" : 5 } }, { "name" : "monkchest", "data" : { "colorIndex" : 6 } }, { "name" : "monkchest", "data" : { "colorIndex" : 7 } }, { "name" : "monkchest", "data" : { "colorIndex" : 8 } }, { "name" : "monkchest", "data" : { "colorIndex" : 9 } },
+						{ "name" : "justajacket", "data" : { "colorIndex" : 1 } }, { "name" : "justajacket", "data" : { "colorIndex" : 3 } }, { "name" : "justajacket", "data" : { "colorIndex" : 4 } }, { "name" : "traditionalchest", "data" : { "colorIndex" : 5 } }, { "name" : "justajacket", "data" : { "colorIndex" : 6 } }, { "name" : "justajacket", "data" : { "colorIndex" : 7 } }, { "name" : "justajacket", "data" : { "colorIndex" : 8 } }, { "name" : "justajacket", "data" : { "colorIndex" : 9 } },
+						{ "name" : "shirtshort1chest", "data" : { "colorIndex" : 1 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 3 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 4 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 5 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 6 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 7 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 8 } }, { "name" : "shirtshort1chest", "data" : { "colorIndex" : 9 } },
+						{ "name" : "shirtlong1chest", "data" : { "colorIndex" : 1 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 3 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 4 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 5 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 6 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 7 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 8 } }, { "name" : "shirtlong1chest", "data" : { "colorIndex" : 9 } }
+					],
+
+					"legs" : [
+						{ "name" : "monklegs", "data" : { "colorIndex" : 1 } }, { "name" : "monklegs", "data" : { "colorIndex" : 3 } }, { "name" : "monklegs", "data" : { "colorIndex" : 4 } }, { "name" : "monklegs", "data" : { "colorIndex" : 5 } }, { "name" : "monklegs", "data" : { "colorIndex" : 6 } }, { "name" : "monklegs", "data" : { "colorIndex" : 7 } }, { "name" : "monklegs", "data" : { "colorIndex" : 8 } }, { "name" : "monklegs", "data" : { "colorIndex" : 9 } }
+					]
+				}
+			] ]
+		]
+	}
+
+}

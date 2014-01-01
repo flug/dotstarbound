@@ -1,0 +1,15 @@
+{
+  "halfwarpStarterTreasure" : [
+    [0, {
+        "fill" : [
+          "beamaxe",
+		  "halfwarpstartersword",
+          "flashlight",
+          [ "torch", 10 ],
+          [ "neonmelonseed", 3]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}

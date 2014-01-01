@@ -1,0 +1,16 @@
+{
+  "id" : "halfwarp3.gearup",
+  "title" : "^#9be3d6;So Is the Food Half-Warped Too?",
+  "text" : "You may be only half-warped, but whatever parts of you are here still require sustenance. Make a bow out of unrefined logs and plant fibres and kill monsters to gather their remains. You can cook it at a campfire to make it edible.",
+  "completionText" : "Looks like you'll eat heartily tonight.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "cookedalienmeat", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "cookedalienmeat", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial3b.gearup"
+}

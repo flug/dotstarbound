@@ -1,0 +1,16 @@
+{
+  "id" : "halfwarp1.gearup",
+  "title" : "^#9be3d6;Met Halfway",
+  "text" : "You were part of the AOMS fleet. While fending off intruders in your ship in a war, you were sucked out of an airlock during an FTL jump. While the ship continued to teleport through the galaxy, you were stuck in this half-warped state. Look for a Matter Manipulator in this ship that you found empty drifting across space.",
+  "completionText" : "Perfect. The Matter Manipulator will allow you to rip through matter in your vicinity and your trusty blade will work for now.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "halfwarp2.gearup"
+}
