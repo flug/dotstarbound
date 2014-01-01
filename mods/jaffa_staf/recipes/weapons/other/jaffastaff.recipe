@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "moltencore", "count" : 1 },
+	{ "item" : "silverbar", "count" : 30 },
+	{ "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "jaffastaff", "count" : 1 },
+  "groups" : [ "mod", "anvil", "weapons", "all" ]
+}
