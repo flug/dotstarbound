@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "imperviumbar", "count" : 25 },
+	{ "item" : "steelbar", "count" : 15 },
+	{ "item" : "processor", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "regenpod",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "all" ]
+}

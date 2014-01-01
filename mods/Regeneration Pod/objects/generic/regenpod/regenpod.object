@@ -1,0 +1,47 @@
+{
+  "objectName" : "regenpod",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A stasis pod to regenerate your life.",
+  "shortdescription" : "Regeneration Pod",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : "1500",
+
+  "apexDescription" : "The most comfortable bed in the universe.",
+  "avianDescription" : "Once you lie here, you won't want to get up.",
+  "floranDescription" : "Floran sssink into bed, forget about ssstabbing for just a moment.",
+  "glitchDescription" : "Blissful. Truly, there is no better bed than this.",
+  "humanDescription" : "The most fun I've had in bed since I ate cheese before going to sleep.",
+  "hylotlDescription" : "I am speechless with wonder at how comfortable this bed is.",
+
+  "objectType" : "interactable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : false,
+  "sitPosition" : [0, 30],
+  "sitOrientation" : "lay",
+  "sitAngle" : "0",
+  "sitCoverImage" : "/objects/generic/regenpod/regenpodcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    { "kind" : "Nude" },
+    { "kind" : "Health", "amount" : 0.25 }
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "/objects/generic/regenpod/regenpodicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "/objects/generic/regenpod/regenpod.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
+
