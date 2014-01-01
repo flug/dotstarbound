@@ -1,0 +1,8 @@
+{
+  "input" : [ ],
+  "output" : {
+    "item" : "penguinsuitTech",
+    "count" : 1
+  },
+  "groups" : [ "tech" ]
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "penguintutorial.gearup",
+  "title" : "^#9be3d6;Quack!",
+  "text" : "Defeat the world you evil little penguin you",
+  "completionText" : "Well done! The matter manipulator allows you to manipulate almost anything in the gameworld.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial2.gearup"
+}

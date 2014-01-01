@@ -1,0 +1,10 @@
+{
+  "itemName" : "penguinsuitTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/penguinsuit.png",
+  "description" : "Use this tech, spawn a mech. Then destroy things.",
+  "shortdescription" : "Penguin Suit",
+  "inspectionKind" : "tech",
+
+  "techModule" : "penguinsuit.tech"
+}
