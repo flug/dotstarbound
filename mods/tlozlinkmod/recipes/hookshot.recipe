@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1750 }
+  ],
+  "output" : {
+    "item" : "hookshot",
+    "count" : 1
+  },
+  "groups" : [ "gossipstone", "objects", "all", "tools" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bonematerial", "count" : 10 },
+	{ "item" : "silverbar", "count" : 5 },
+	{ "item" : "steelbar", "count" : 10 },
+    { "item" : "money", "count" : 750 }
+  ],
+  "output" : { "item" : "skullhammer", "count" : 1 },
+  "groups" : [ "gossipstone", "weapons", "all" ]
+}

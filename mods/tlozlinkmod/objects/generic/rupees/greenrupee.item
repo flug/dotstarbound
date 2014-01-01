@@ -1,0 +1,7 @@
+{
+  "itemName" : "greenrupee",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "greenrupee.png",
+  "description" : "You got a Rupee. It's green! Don't spend it all in one place!",
+  "shortdescription" : "Green Rupee"
+}

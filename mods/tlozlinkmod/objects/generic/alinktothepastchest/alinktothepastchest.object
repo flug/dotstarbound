@@ -1,0 +1,36 @@
+{
+  "objectName" : "alinktothepastchest",
+  "rarity" : "uncommon",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : "500",
+  "description" : "I wonder what it could contain?",
+  "shortdescription" : "A chest from A Link to The Past",
+  "race" : "apex",
+
+  "apexDescription" : "A chest! What's inside?",
+  "avianDescription" : "A wooden chest. Anything useful in there?",
+  "floranDescription" : "Ssssweet chesst!",
+  "glitchDescription" : "Analysing lock. There is no lock.",
+  "humanDescription" : "I feel like a pirate with a chest of treasure.",
+  "hylotlDescription" : "A chest always fills me with excitement.",
+
+  "inventoryIcon" : "alinktothepastchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "alinktothepastchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.wav" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest60.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

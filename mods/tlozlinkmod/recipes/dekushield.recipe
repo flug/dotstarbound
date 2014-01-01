@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "money", "count" : 50 }
+  ],
+  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "dekushield", "level" : 10 } },
+  "groups" : [ "gossipstone", "armor", "all" ]
+}

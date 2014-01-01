@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "copperbar", "count" : 2 },
+	{ "item" : "darkwoodmaterial", "count" : 10 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "kokirisword", "count" : 1 },
+  "groups" : [ "gossipstone", "weapons", "all" ]
+}

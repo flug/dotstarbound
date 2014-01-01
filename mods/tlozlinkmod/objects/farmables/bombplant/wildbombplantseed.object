@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildcrystalplantseed",
+  "rarity" : "Common",
+  "description" : "Why buy bombs, when you can grow them?",
+  "category" : "farmable",
+  "shortdescription" : "Bomb Plant Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  "objectItem" : "bombplantseed",
+
+  "apexDescription" : "Grow your own bombs. Handy.",
+  "avianDescription" : "Grow your own bombs. Handy.",
+  "floranDescription" : "Grow your own bombs. Handy.",
+  "glitchDescription" : "Grow your own bombs. Handy.",
+  "humanDescription" : "Grow your own bombs. Handy.",
+  "hylotlDescription" : "Grow your own bombs. Handy.",
+
+  "inventoryIcon" : "bombplantseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bombplantseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "bomb",
+            "count" : 1
+          },
+          {
+            "name" : "bombplantseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "bomb",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "bomb",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [2820, 2940],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [2820, 2940],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}

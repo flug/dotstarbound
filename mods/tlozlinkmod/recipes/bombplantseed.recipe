@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 500 }
+	
+  ],
+  "output" : {
+    "item" : "bombplantseed",
+    "count" : 1
+  },
+  "groups" : [ "gossipstone", "objects", "all", "tools" ]
+}

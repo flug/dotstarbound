@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 30 },
+	{ "item" : "diamond", "count" : 10 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "phantomblade", "count" : 1 },
+  "groups" : [ "gossipstone", "weapons", "all" ]
+}

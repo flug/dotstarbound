@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 500 },
+	{ "item" : "darkwoodmaterial", "count" : 30 },
+	{ "item" : "goldbar", "count" : 5 }
+	
+  ],
+  "output" : {
+    "item" : "skywardswordchest",
+    "count" : 1
+  },
+  "groups" : [ "gossipstone", "all", "other" ]
+}

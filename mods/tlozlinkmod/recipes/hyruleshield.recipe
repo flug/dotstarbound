@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 5 },
+    { "item" : "steelbar", "count" : 15 },
+    { "item" : "money", "count" : 500 }
+	
+  ],
+  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "hyruleshield", "level" : 20 } },
+  "groups" : [ "gossipstone", "armor", "all" ]
+}

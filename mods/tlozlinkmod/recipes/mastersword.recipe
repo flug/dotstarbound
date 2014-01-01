@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 20 },
+	{ "item" : "goldbar", "count" : 5 },
+	{ "item" : "steelbar", "count" : 10 },
+    { "item" : "money", "count" : 1500 }
+	
+  ],
+  "output" : { "item" : "mastersword", "count" : 1 },
+  "groups" : [ "gossipstone", "weapons", "all" ]
+}

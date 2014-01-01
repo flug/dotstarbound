@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 350 },
+	{ "item" : "ironbar", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "fairybow",
+    "count" : 1
+  },
+  "groups" : [ "gossipstone", "objects" ]
+}

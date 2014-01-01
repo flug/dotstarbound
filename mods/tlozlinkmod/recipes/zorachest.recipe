@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 30 },
+	{ "item" : "copperbar", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "zoraarmorchest", "count" : 1 },
+  "groups" : [ "gossipstone", "armors", "all" ]
+}
