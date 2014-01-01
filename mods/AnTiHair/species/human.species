@@ -1,0 +1,32 @@
+{
+  "__merge":[
+  ["overwrite","genders"]
+  ],
+  "altOptionAsHairColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/humanmale.png",
+      "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28", "male29", "male30", "male31", "male32", "male33", "male34", "male35", "male36", "male37", "male38", "male39", "male40", "male41", "male42", "male43", "male44", "male45", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male53", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "anti_mhuman01", "anti_mhuman02", "anti_mhuman02b", "anti_mhuman03", "anti_mhuman04", "anti_mhuman05", "anti_mhuman06", "anti_mhuman07", "anti_mhuman08", "anti_mhuman09", "anti_mhuman10", "anti_mhuman11", "anti_mhuman12", "anti_fhuman06", "anti_mhuman13", "anti_mhuman14", "anti_mhuman15", "anti_mhuman16", "anti_mhuman17", "anti_mhuman18", "anti_mhuman19", "anti_mhuman20", "anti_mhuman21" ], //  "hair2cut" "hair9cut"
+      "shirt" : [ "workoutchest", "coolchest", "conceptchest", "sweatervestchest" ],
+      "pants" : [ "workoutlegs", "coollegs", "conceptlegs", "sweatervestlegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/humanfemale.png",
+      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "fem52", "fem53", "fem54", "fem55", "fem56", "anti_fhuman01", "anti_fhuman02", "anti_fhuman03", "anti_fhuman04", "anti_fhuman05", "anti_fhuman06", "anti_fhuman07", "anti_fhuman08", "anti_fhuman09", "anti_fhuman10", "anti_fhuman11", "anti_fhuman12", "anti_mhuman08", "anti_fhuman13", "anti_fhuman14", "anti_fhuman15", "anti_fhuman16", "anti_fhuman17", "anti_fhuman18", "anti_fhuman19", "anti_fhuman20", "anti_mhuman21" ], //  "hair2cut" "hair9cut"
+      "shirt" : [ "workoutchest", "coolchest", "conceptchest", "sweatervestchest" ],
+      "pants" : [ "workoutlegs", "coollegs", "conceptlegs", "sweatervestlegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ]
+}

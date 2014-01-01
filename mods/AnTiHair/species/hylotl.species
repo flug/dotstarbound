@@ -1,0 +1,31 @@
+{
+"__merge":[
+  ["overwrite","genders"]
+  ],
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/aquaticmale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "anti_hylotlhair01", "anti_hylotlhair02", "anti_hylotlhair03", "anti_hylotlhair04", "anti_hylotlhair05", "anti_hylotlhair06", "anti_hylotlhair07", "anti_hylotlhair08", "anti_hylotlhair09", "anti_hylotlhair10", "anti_hylotlhair11", "anti_hylotlhair12", "anti_hylotlhair13", "anti_hylotlhair14", "anti_hylotlhair15", "anti_hylotlhair16", "anti_hylotlhair17", "anti_hylotlhair18", "anti_hylotlhair19", "anti_hylotlhair20", "anti_hylotlhair21", "anti_hylotlhair22", "anti_hylotlhair23", "anti_hylotlhair24", "anti_hylotlhair25" ],
+      "shirt" : [ "kimonochest", "monkchest", "traineechest", "traditionalchest" ],
+      "pants" : [ "kimonolegs", "monklegs", "traineelegs", "traditionallegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/aquaticfemale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "anti_hylotlhair01", "anti_hylotlhair02", "anti_hylotlhair03", "anti_hylotlhair04", "anti_hylotlhair05", "anti_hylotlhair06", "anti_hylotlhair07", "anti_hylotlhair08", "anti_hylotlhair09", "anti_hylotlhair10", "anti_hylotlhair11", "anti_hylotlhair12", "anti_hylotlhair13", "anti_hylotlhair14", "anti_hylotlhair15", "anti_hylotlhair16", "anti_hylotlhair17", "anti_hylotlhair18", "anti_hylotlhair19", "anti_hylotlhair20", "anti_hylotlhair21", "anti_hylotlhair22", "anti_hylotlhair23", "anti_hylotlhair24", "anti_hylotlhair25" ],
+      "shirt" : [ "kimonochest", "monkchest", "traineechest", "traditionalchest" ],
+      "pants" : [ "kimonolegs", "monklegs", "traineelegs", "traditionallegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ]
+}

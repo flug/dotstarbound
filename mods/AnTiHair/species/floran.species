@@ -1,0 +1,31 @@
+{
+  "__merge":[
+  ["overwrite","genders"]
+  ],
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/plantmaleicon.png",
+      "characterImage" : "/interface/title/plantmale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "anti_floran01", "anti_floran02", "anti_floran03", "anti_floran04", "anti_floran05", "anti_floran06", "anti_floran07", "anti_floran08", "anti_floran09", "anti_floran10", "anti_floran11", "anti_floran12", "anti_floran13", "anti_floran14", "anti_floran15", "anti_floran16", "anti_floran17", "anti_floran18", "anti_floran19", "anti_floran20", "anti_floran21", "anti_floran22", "anti_floran23", "anti_floran24", "anti_floran25", "anti_floran26", "anti_floran27" ],
+      "shirt" : [ "floranfurnivourchest", "floranhunterchest", "floranleafchest", "floranpeltchest", "floransurvivalistchest" ],
+      "pants" : [ "floranfurnivourlegs", "floranhunterlegs", "floranleaflegs", "floranpeltlegs", "floransurvivalistlegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/plantfemaleicon.png",
+      "characterImage" : "/interface/title/plantfemale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "anti_floran01", "anti_floran02", "anti_floran03", "anti_floran04", "anti_floran05", "anti_floran06", "anti_floran07", "anti_floran08", "anti_floran09", "anti_floran10", "anti_floran11", "anti_floran12", "anti_floran13", "anti_floran14", "anti_floran15", "anti_floran16", "anti_floran17", "anti_floran18", "anti_floran19", "anti_floran20", "anti_floran21", "anti_floran22", "anti_floran23", "anti_floran24", "anti_floran25", "anti_floran26", "anti_floran27" ],
+      "shirt" : [ "floranfurnivourchest", "floranhunterchest", "floranleafchest", "floranpeltchest", "floransurvivalistchest" ],
+      "pants" : [ "floranfurnivourlegs", "floranhunterlegs", "floranleaflegs", "floranpeltlegs", "floransurvivalistlegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ]
+}

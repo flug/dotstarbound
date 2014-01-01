@@ -1,0 +1,33 @@
+{
+  "__merge":[
+  ["overwrite","genders"]
+  ],
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/sapemale.png",
+      "hairGroup" : "hairmale",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "anti_mapex01", "anti_mapex02", "anti_mapex03", "anti_mapex04", "anti_mapex05", "anti_mapex06", "anti_mapex07", "anti_mapex08", "anti_mapex09", "anti_mapex10", "anti_mapex11", "anti_fapex06", "anti_mapex12", "anti_mapex13" ],
+      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
+      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "beardmale",
+      "facialHair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/sapefemale.png",
+      "hairGroup" : "hairfemale",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "anti_fapex01", "anti_fapex02", "anti_fapex03", "anti_fapex04", "anti_fapex05", "anti_fapex06", "anti_fapex07", "anti_fapex08", "anti_fapex09", "anti_fapex10", "anti_fapex11", "anti_mapex01", "anti_mapex02", "anti_mapex03", "anti_mapex07", "anti_mapex09", "anti_mapex10", "anti_fapex12", "anti_fapex13" ],      
+	  "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket" ],
+      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "facialHairGroup" : "beardfemale",
+      "facialHair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ]
+}
